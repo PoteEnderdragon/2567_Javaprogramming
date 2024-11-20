@@ -1,0 +1,16 @@
+
+import javax.swing.JOptionPane;
+public class program Java_FirstProgram 
+{
+  public static void main(String[] args) 
+  {
+    system.out.println("studentId:2413110913");
+    system.out.println("studentName:Chitsanupong puegpuang");
+    system.out.println("Topic:Learn and practice with GitHub");
+    system.out.println("Date:11/20/2024");
+
+    JOptionPane.showMessageDialog(null,"studentId:2413110913" + "\nstudentName:Chitsanupong puegpuang" +
+                                  "\nTopic:Learn and practice with GitHub" + "\nDate:11/20/2024");
+  }
+}
+
