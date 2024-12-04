@@ -7,7 +7,7 @@ public class SalespersonSalary {
 		Scanner input = new Scanner(System.in);
 		// Declare constants
 		 final double BASE_SALARY = 1000.0;
-		final double COMMISSION_RATE = 0.15;
+		 final double COMMISSION_RATE = 0.15;
 		 final int SENTINEL = -1; // Terminating value for input
 		 // Declare variables
 		 int sales; // Input gross sales
@@ -27,6 +27,7 @@ public class SalespersonSalary {
 			 System.out.printf("The saleperson's salary is : $%,.2f%n%n",salary);
 		 }
 		 System.out.println("bye");
+		 
 		 input.close();
 
 	}
