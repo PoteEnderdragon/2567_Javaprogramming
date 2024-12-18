@@ -1,18 +1,15 @@
-import java.util.*;
-public class Lab303 {
+import javax.swing.JOptionPane;
+public class Lab303_1 {
 
-	public static void main(String[] args) 
-	{
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner scan = new Scanner(System.in);
-	       
-        //var
+		 //var
         int spacebarCount = 0;
         int wordCount = 0;
         String inputSentence;
        
-        System.out.print("Input a sentence : ");
-        inputSentence = scan.nextLine();
+       
+        inputSentence = JOptionPane.showInputDialog(null,"Input a sentence:");
         while(true)
         {
             if (inputSentence.endsWith("."))
@@ -20,8 +17,7 @@ public class Lab303 {
             break;
             }
             else {
-            System.out.print("Input a sentence, again : ");
-            inputSentence = scan.nextLine();
+                inputSentence = JOptionPane.showInputDialog(null,"Input a sentence, again:");
                
             }
        
@@ -40,11 +36,7 @@ public class Lab303 {
         for (int i=0;i<text.length;i++){
             wordCount++;
         }
-        System.out.println("This sentence has "+spacebarCount+" spacebar.");
-        System.out.println("This sentence has "+wordCount+" word.");
- 
-        scan.close();
-		
+        JOptionPane.showMessageDialog(null, "This sentence has "+spacebarCount+" spacebar."+"\nThis sentence has "+wordCount+" word.");
 
 	}
 
