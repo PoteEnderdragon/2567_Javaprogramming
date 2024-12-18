@@ -44,7 +44,7 @@ public class Lab401 {
 		if(email.endsWith("@gmail.com")||email.endsWith("@hotmail.com")) 
 		{
 			return true;
-			//return (email.endsWith("@gmail.com")||email.endsWith("@hotmail.com"));
+			//return (email.endsWith("@gmail.com")||email.endsWith("@hotmail.com")) ก็ได้;
 		}
 		return false;
 	}

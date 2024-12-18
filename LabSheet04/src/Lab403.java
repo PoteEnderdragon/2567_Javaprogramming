@@ -27,7 +27,7 @@ public class Lab403 {
 	public static String abbreviatName(String fName) 
 	{
 		String initailLetter="";
-		
+		//loop fname
 		for(int i = 0;i<fName.length();i++) {
 			if (fName.charAt(i)== ' ') {
 				initailLetter = (initailLetter + fName.charAt(i+1)).toUpperCase();
