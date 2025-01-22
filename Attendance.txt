@@ -1,4 +1,4 @@
 studentId:2413110913
 studentName:Chitsanupong puegpuang
-Topic:Class and Object
-Date:01/15/2025
+Topic:Encapsulation Concept
+Date:01/22/2025
