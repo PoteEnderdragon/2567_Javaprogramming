@@ -1,4 +1,5 @@
 studentId:2413110913
 studentName:Chitsanupong puegpuang
-Topic:Encapsulation Concept
-Date:01/22/2025
+Topic:- Array Object
+      - Composition Concept
+Date:01/29/2025
