@@ -12,7 +12,7 @@ public class Barista {
 	}
 	
 	public String getName() {
-		return ""; //?
+		return this.name; //?
 	}
 	public String getGenderName() {
 		if(gender == 'm' || gender == 'M') {
